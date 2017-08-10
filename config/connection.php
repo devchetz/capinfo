@@ -1,0 +1,1 @@
+<?php $dbc = mysql_connect(localhost, 'root', '', 'capinfo') or die(Page not available at this tiime: mysql_error()); ?>
