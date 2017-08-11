@@ -12,7 +12,7 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Sign up</a></li>
-		<li><a href="#">Sign in</a></li>
+		<li><a href="login.php">Sign in</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
