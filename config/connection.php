@@ -1,1 +1,4 @@
-<?php $dbc = mysql_connect(localhost, 'root', '', 'capinfo') or die(Page not available at this tiime: mysql_error()); ?>
+<?php
+# Database Connection Here...
+$dbc = mysqli_connect('localhost', 'root', '', 'chetcms') OR die('Could not connect because: '.mysqli_connect_error());
+?>
