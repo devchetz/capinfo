@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-3">
-					<p class="copyright">Copyright &copy; 2017.<a href="#"> All Records</a></p>
+					<p class="copyright">Copyright &copy; 2017.<a href="index.php"> All Records</a></p>
 			</div>
 		</div>		
 	</div>	
