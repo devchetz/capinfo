@@ -36,32 +36,24 @@ if(!isset($_SESSION['username'])) {
 
 <style>
 	
-	html,
-	body {
-	  height: 100%;
-	  /* The html and body elements cannot have any padding or margin. */
-	}
-	
-	/* Wrapper for page content to push down footer */
-	#wrap {
+	/* Sticky footer styles */
+	html {
+	  position: relative;
 	  min-height: 100%;
-	  height: auto;
-	  /* Negative indent footer by its height */
-	  margin: 0 auto -60px;
-	  /* Pad bottom by footer height */
-	  padding: 0 0 60px;
 	}
-	
-	/* Set the fixed height of the footer here */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 60px;
+	}
 	#footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
 	  height: 60px;
 	  background-color: #8c8c59;
 	}
-	
-	#btn-debug {
-		position: absolute;
-	}	
-		
+
 </style>
 
 </head>

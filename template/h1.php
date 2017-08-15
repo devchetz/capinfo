@@ -12,6 +12,7 @@
 	<!-- Capinfo Bootstap -->
 	<link rel="stylesheet" type="text/css" href="config/css/capinfo.css">
 	<link rel="stylesheet" type="text/css" href="config/css/capinfo.theme.css">
+	<link rel="stylesheet" type="text/css" href="config/css/reguser.css">
 
 	<!-- siimple style -->
 	<link rel="stylesheet" type="text/css" href="config/css/style.css">
@@ -24,52 +25,23 @@
 
 <style>
 	
-	html,
-	body {
-	  height: 100%;
-	  /* The html and body elements cannot have any padding or margin. */
-	}
-	
-	/* Wrapper for page content to push down footer */
-	#wrap {
+	/* Sticky footer styles */
+	html {
+	  position: relative;
 	  min-height: 100%;
-	  height: auto;
-	  /* Negative indent footer by its height */
-	  margin: 0 auto -60px;
-	  /* Pad bottom by footer height */
-	  padding: 0 0 60px;
 	}
-	
-	/* Set the fixed height of the footer here */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 60px;
+	}
 	#footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
 	  height: 60px;
-	  background-color: #8c8c59;
+	  background-color: #8a8c59;
 	}
-	
-	#btn-debug {
-		position: absolute;
-	}	
-		
+
 </style>
 
-</head>
-<div id="wrap">
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="login.php">All Records</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign up</a></li>
-		<li><a href="login.php">Sign in</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
