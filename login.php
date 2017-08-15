@@ -50,7 +50,6 @@ if($_POST) {
                     <h2 class="">Sign In.</h2>
                 </div>
 
-                
                 <div class="panel-body"><!-- Panel-body -->
                     <form action="login.php" method="post" role="form">
                         <div class="form-group">
@@ -59,10 +58,6 @@ if($_POST) {
                             <span class="text-danger"><?php echo $emailError; ?></span>
                         </div>
 
-
-
-
-                          
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
@@ -75,21 +70,15 @@ if($_POST) {
                             <hr />
                         </div>
 
-
                         <div class="form-group" style="">Don't Have accout? 
                             <a href="signup.php" style="color: #466ddb">Sign Up Here...</a>
                         </div>
-
-
-
                     </form>
                 </div>
-            </div>                
-        </div>
+            </div>
+        </form>               
     </div>
-    </div>
-</div>    
-    
+</div>        
 </body>
 
 </html>
