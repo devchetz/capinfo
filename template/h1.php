@@ -23,25 +23,5 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-<style>
-	
-	/* Sticky footer styles */
-	html {
-	  position: relative;
-	  min-height: 100%;
-	}
-	body {
-	  /* Margin bottom by footer height */
-	  margin-bottom: 60px;
-	}
-	#footer {
-	  position: absolute;
-	  bottom: 0;
-	  width: 100%;
-	  /* Set the fixed height of the footer here */
-	  height: 60px;
-	  background-color: #8a8c59;
-	}
 
-</style>
 

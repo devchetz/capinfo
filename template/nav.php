@@ -21,7 +21,7 @@
       <div class="pull-right">
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $user['fullname']; ?> <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class=""></span>&nbsp;Hi' <?php echo $user['fullname']; ?> <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="logout.php">Logout</a></li>
             </ul>
